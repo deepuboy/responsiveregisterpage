@@ -7,32 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="form.js"></script>
 </head>
-
-
-
-
 
 </div>
 
 <body style="background-image:linear-gradient(to bottom right, #FF6600, #FF9933)" ;>
-    <div class="one">
+    <div class="one" >
         <div class="formbox">
             <h1>Register Here </h1>
+            
 
             <h2><input id='Name' type="text" placeholder="Name" required> </h2>
             <h2> <input id='Username' type="text" placeholder="Username" required> </h2>
-            <h2> <input id='Email' type="text" placeholder="Email" required> </h2>
-            <h2> <input id='Password' type="text" placeholder="Password" required> </h2>
-            <h2> <input id='Confirm Password' type="text" placeholder="Confirm Password" required> </h2>
+            <h2> <input id='Email' type="text" placeholder="Email" required>
+
+            </h2>
+            <form >
+            <h2> <input id='Password' type="password" placeholder="Password" value="" required> </h2>
+            <span id="span1"> </span>
+            <h2> <input id='ConfirmPassword' type="password" placeholder="Confirm Password" value="" required> </h2>
 
 
-            <button type="button" class="toggle-button1"><b> Register </button>
+            <input type="button" class="toggle-button1" onclick="fun()"><b> Register </button>
+            </form>
 
-            <button type="button" class="toggle-button2"><b> About Us </button>
+
+
         </div>
 
+        <div class="formbox2">
 
+            <h3>Join Us</h3>
+            <h4> Suscribe Easy Tutorials YouTube Channel to
+                <br> watch more videos
+            </h4>
+
+            <button type="button" class="toggle-button2"><b> About Us </button>
+            <h5>&#11167;
+            </h5>
+        </div>
 
 </body>
 
